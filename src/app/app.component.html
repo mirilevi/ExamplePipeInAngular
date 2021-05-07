@@ -1,0 +1,21 @@
+<div>
+    <h1>Currency Pipe</h1>
+    <p>{{num+" //base"}}</p>
+
+    <p>{{num |currency}}</p>
+    <p>{{num|currency:'EUR'}}</p>
+    <p>{{num|currency:"USD":true}}</p>
+
+    <h1>Date pipe</h1>
+    <p>{{birthday+" //base"}}</p>
+    <p>{{ birthday|date:'shortDate'}}</p>
+    <p>{{ birthday| date:'h:mm a z'}}</p>
+
+    <h1>Uppercase Pipe</h1>
+    <p>{{ name+" //base"}}</p>
+    <p>{{ name |uppercase}}</p>
+
+    <h1>Percent Pipe</h1>
+    <p>{{00.54565 +" //base"}}</p>
+    <p>{{00.54565 | percent}}</p>
+</div>
